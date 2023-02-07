@@ -19,13 +19,11 @@
     background: #FFF8F3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right, left;
-    
-
+    background-position: bottom right, left;    
 }
 
-
 /* header and navigation styles */
+
  nav{
     display: flex;
     justify-content: space-between;
@@ -158,20 +156,36 @@ main, section{
 
 .resume-content{
     display: flex;
+    gap: 24px;
+}
+.resume-title{
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .resume .title{
     color: #474747;
     font-weight: 700;
     font-size: 25px;
+    margin-bottom: 10px;
 }
 .resume .sub-title{
     color: #757575;
     font-weight: 600;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 .resume .description{
     color: #757575;
     font-weight: 400;
     font-size: 16px;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
 }
 
