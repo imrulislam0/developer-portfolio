@@ -153,3 +153,25 @@ main, section{
     font-weight: 400;
     font-size: 16px;
 }
+
+/* Resume Styles */
+
+.resume-content{
+    display: flex;
+}
+.resume .title{
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+}
+.resume .description{
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+}
+
